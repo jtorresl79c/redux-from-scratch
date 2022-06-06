@@ -1,7 +1,7 @@
-import { createStore } from 'redux'
+// import { createStore } from 'redux'
+import { configureStore } from '@reduxjs/toolkit'
 import reducer from './bugs'
 
-export default function configureStore(){
-    const store = createStore(reducer)
-    return store
+export default function(){
+    return configureStore({reducer})
 }

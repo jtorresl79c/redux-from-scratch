@@ -27,7 +27,6 @@ export const bugResolved = id => ({
 })
 
 
-
 // Reducer - #1 En el Ducks pattern - El reducer a fuerzas debe de ser el export default
 let lastId = 0
 
