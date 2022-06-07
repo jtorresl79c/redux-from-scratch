@@ -1,6 +1,7 @@
 // import { createStore } from 'redux'
 import { configureStore } from '@reduxjs/toolkit'
-import reducer from './bugs'
+// import reducer from './bugs'
+import reducer from './projects'
 
 export default function(){
     // Esto retorna el store, es como si fuera el store = createStore(reducer)
