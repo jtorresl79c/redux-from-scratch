@@ -7,6 +7,8 @@ store.subscribe( () => {
     console.log('Store changed!')
 });
 
+
+// actions.bugAdded( { description: "Bug 1" } ) // { type: "bugAdded", payload: { description: "Bug 1" } }
 store.dispatch(actions.bugAdded( { description: "Bug 1" } ))
 
 console.log(store.getState());
